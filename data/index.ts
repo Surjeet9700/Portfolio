@@ -1,14 +1,32 @@
+import {
+  SiMongodb,
+  SiExpress,
+  SiReact,
+  SiNodedotjs,
+  SiNextdotjs,
+  SiTailwindcss,
+  SiTypescript,
+  SiOpenai,
+  SiVercel,
+  SiEthers,
+ 
+} from "react-icons/si";
+
+import { FaKey, FaCube } from "react-icons/fa";
+
+
+
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  // { name: "Testimonials", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
 ];
 
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title:
+      "I excel in collaborative environments, actively engaging with peers and mentors to achieve shared goals. ",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -18,9 +36,10 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "I'm very flexible with time zone communications",
+    title:
+      "I adapt quickly, ensuring seamless coordination and problem-solving",
     description: "",
-    className: "lg:col-span-2 md:col-span-3 md:row-span-2",
+    className: "lg:col-span-2 font-sm md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-start",
     img: "",
@@ -49,7 +68,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a Paytm clone",
+    title: "Currently building a image Generation site",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -69,73 +88,45 @@ export const gridItems = [
   },
 ];
 
+
+
 export const projects = [
   {
     id: 1,
-    title: "Personal Blog Built with React & Tailwind CSS",
-    des: "Modern, responsive blog with user authentication and sleek design, powered by Vite React and Appwrite",
+    title: "Personal Blog ",
+    des: "Modern, responsive blog with user authentication and sleek design, powered by Vite React and Appwrite.",
     img: "/pp1.png",
-    iconLists: ["/re.svg", "/tail.svg", "/js.avif" ],
+    iconLists: [SiReact, SiTailwindcss, SiExpress],
     link: "https://xeets-blog-site.vercel.app/",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "https://www.google2.com",
+    title: "Hostel Booking System",
+    des: "A full-stack web application for booking and managing hostel accommodations with a seamless user experience.",
+    img: "/project2.png",
+    iconLists: [SiMongodb, SiExpress, SiReact, SiNodedotjs, FaKey],
+    link: "https://github.com/Surjeet9700/Hostel-Booking",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p2.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "https://www.google3.com",
+    title: "AI Website Builder",
+    des: "An AI-powered platform that enables users to generate fully functional websites with minimal effort.",
+    img: "/project3.png",
+    iconLists: [SiNextdotjs, SiTailwindcss, SiTypescript, SiOpenai, SiVercel],
+    link: "https://github.com/Surjeet9700/AI-Website-Builder",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://www.google4.com",
+    title: "Blockchain-Based E-commerce Store",
+    des: "A decentralized e-commerce platform leveraging blockchain technology for secure  transactions.",
+    img: "/project4.png",
+    iconLists: [SiNextdotjs, SiReact, SiTailwindcss, SiEthers, FaCube],
+    link: "https://github.com/Surjeet9700/blockchain-based-ecommerce-store",
   },
 ];
 
-export const testimonials = [
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-];
+
+export const testimonials = [];
 
 export const companies = [
   {
@@ -170,53 +161,22 @@ export const companies = [
   },
 ];
 
-export const workExperience = [
-  {
-    id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
-    className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
-  },
-  {
-    id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
-  },
-  {
-    id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
-  },
-  {
-    id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
-    className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
-  },
-];
+export const workExperience = [];
 
 export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
-    link: "https://github.com/Surjeet9700/"
+    link: "https://github.com/Surjeet9700/",
   },
   {
     id: 2,
     img: "/twit.svg",
-    link: ""
-
+    link: "",
   },
   {
     id: 3,
     img: "/link.svg",
-    link: "https://www.linkedin.com/in/surjeet-kumar-/"
-
+    link: "https://www.linkedin.com/in/surjeet-kumar-/",
   },
 ];

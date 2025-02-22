@@ -53,7 +53,7 @@ export const BentoGridItem = ({
   titleClassName?: string;
   spareImg?: string;
 }) => {
-  const leftLists = [ "NextJs", "Typescript", "Tailwind CSS"];
+  const leftLists = [ "NextJs", "Hono", "Docker", "Typescript", "Tailwind CSS"];
   const rightLists = ["MongoDB", "Express", "Postgres", "NextAuth.js" ];
 
   const [copied, setCopied] = useState(false);
@@ -127,7 +127,7 @@ export const BentoGridItem = ({
           </div>
         
           <div
-            className={`font-sans text-lg lg:text-3xl max-w-96 font-bold z-10`}
+            className={`font-sans text-lg lg:text-2xl max-w-96 font-bold z-10`}
           >
             {title}
           </div>
@@ -139,7 +139,7 @@ export const BentoGridItem = ({
           {id === 3 && (
             <div className="flex gap-0.5 lg:gap-5 w-fit absolute -right-3 lg:-right-2">
               {/* tech stack lists */}
-              <div className="flex flex-col gap-3 md:gap-3 lg:gap-8">
+              <div className="flex flex-col gap-3 md:gap-3 lg:gap-7">
                 {leftLists.map((item, i) => (
                   <span
                     key={i}
