@@ -22,18 +22,18 @@ const Hero = () => {
 
             <div className='flex justify-center relative mt-[11rem] '>
                 <div className='max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center'>
-                    <h2 className='uppercase tracking-widest 
+                    {/* <h2 className='uppercase tracking-widest 
                     text-xs text-center text-blue-100 max-w-80'>
                         Dynamic Web Magic with Next.js
-                    </h2>
+                    </h2> */}
 
                     <TextGenerateEffect
                         className='text-center text-[40px] md:text-5xl lg:text-6xl'
-                        words="Passionate About Web Development Seeking First Opportunity"
+                        words="Full-Stack Developer  Innovating Digital Experiences"
                     />
 
                     <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>
-                         Hi, I&apos;m Surjeet Kumar, an aspiring full-stack developer passionate about creating impactful web experiences.
+                         Hi, I&apos;m Surjeet Kumar, a passionate full-stack developer proficient in Next.js, React, and Node.js. I design and build responsive, scalable web solutions that empower businesses and elevate user engagement..
                     </p>
 
                     <a href='#about'> <MagicButton 

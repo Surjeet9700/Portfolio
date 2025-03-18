@@ -92,20 +92,12 @@ export const gridItems = [
 
 export const projects = [
   {
-    id: 1,
-    title: "Personal Blog ",
-    des: "Modern, responsive blog with user authentication and sleek design, powered by Vite React and Appwrite.",
-    img: "/pp1.png",
-    iconLists: [SiReact, SiTailwindcss, SiExpress],
-    link: "https://xeets-blog-site.vercel.app/",
-  },
-  {
-    id: 2,
-    title: "Hostel Booking System",
-    des: "A full-stack web application for booking and managing hostel accommodations with a seamless user experience.",
-    img: "/project2.png",
-    iconLists: [SiMongodb, SiExpress, SiReact, SiNodedotjs, FaKey],
-    link: "https://github.com/Surjeet9700/Hostel-Booking",
+    id: 5,
+    title: "Photo AI ",
+    des: "AI-powered photo generation app with OpenAI integration, responsive UI, and secure authentication for creating high-quality images from text prompts.",
+    img: "/project5.png",
+    iconLists: [SiNextdotjs, SiReact, SiTypescript, SiOpenai, SiTailwindcss],
+    link: "https://github.com/Surjeet9700/photo-ai-w",
   },
   {
     id: 3,
@@ -118,10 +110,26 @@ export const projects = [
   {
     id: 4,
     title: "Blockchain-Based E-commerce Store",
-    des: "A decentralized e-commerce platform leveraging blockchain technology for secure  transactions.",
+    des: "A decentralized e-commerce platform leveraging blockchain technology for secure transactions.",
     img: "/project4.png",
     iconLists: [SiNextdotjs, SiReact, SiTailwindcss, SiEthers, FaCube],
     link: "https://github.com/Surjeet9700/blockchain-based-ecommerce-store",
+  },
+  {
+    id: 1,
+    title: "Personal Blog",
+    des: "Modern, responsive blog with user authentication and sleek design, powered by Vite React and Appwrite.",
+    img: "/pp1.png",
+    iconLists: [SiReact, SiTailwindcss, SiExpress],
+    link: "https://xeets-blog-site.vercel.app/",
+  },
+  {
+    id: 2,
+    title: "Hostel Booking System",
+    des: "A full-stack web application for booking and managing hostel accommodations with a seamless user experience.",
+    img: "/project2.png",
+    iconLists: [SiMongodb, SiExpress, SiReact, SiNodedotjs, FaKey],
+    link: "https://github.com/Surjeet9700/Hostel-Booking",
   },
 ];
 
@@ -161,7 +169,14 @@ export const companies = [
   },
 ];
 
-export const workExperience = [];
+export interface WorkExperience {
+  id: number;
+  title: string;
+  thumbnail: string;
+  desc: string;
+}
+
+export const workExperience: WorkExperience[] = [];
 
 export const socialMedia = [
   {
